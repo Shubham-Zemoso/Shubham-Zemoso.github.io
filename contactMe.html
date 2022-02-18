@@ -3,6 +3,36 @@
         <title>My Home Page</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .middle
+            {
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            .middle h1
+            {
+                padding-top: 2%;
+                
+            }
+            .social
+            {
+                align-content: center;
+                height: 40%;
+            }
+            .social a img
+            {
+                height:5rem;
+                width:6rem;
+                padding:10px;
+                transition: 0.3s;
+            }
+
+            .social a img:hover {
+                transform: scale(1.1);
+            }
+        </style>
     </head>
     <body>
         <div class="header">
@@ -17,6 +47,12 @@
         </div>
         <div class="middle">
             <h1>Contact ME</h1>
+            <div class="social">
+                <a href="#"><img src="images/gmail.png" /></a>
+                <a href="#"><img src="images/fb.png" /></a>
+                <a href="#"><img src="images/instagram.png" /></a>
+                <a href="#"><img src="images/linkedin.png" /></a>
+            </div>
         </div>
         <div class="footer">
             <p> Copyright &copy; 2022</p>
